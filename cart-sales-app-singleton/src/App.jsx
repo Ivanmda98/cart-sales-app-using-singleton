@@ -1,10 +1,12 @@
-
+import ProductsListComponent from "./components/ListProducts/ProductsListComponent"
+import { Header } from "./components/Header/Header"
 function App() {
 
 
   return (
     <>
-      Hola Mundo
+      <Header></Header>
+      <ProductsListComponent></ProductsListComponent>
     </>
   )
 }

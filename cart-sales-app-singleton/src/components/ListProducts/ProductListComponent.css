@@ -1,0 +1,6 @@
+.product-list-container {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+}
